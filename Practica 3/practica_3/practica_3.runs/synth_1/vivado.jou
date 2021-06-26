@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Mar 28 19:11:55 2021
+# Process ID: 12236
+# Current directory: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica 3/practica_3/practica_3.runs/synth_1
+# Command line: vivado.exe -log sum_res_4bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sum_res_4bits.tcl
+# Log file: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica 3/practica_3/practica_3.runs/synth_1/sum_res_4bits.vds
+# Journal file: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica 3/practica_3/practica_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sum_res_4bits.tcl -notrace

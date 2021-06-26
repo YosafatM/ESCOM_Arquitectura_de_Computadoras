@@ -1,0 +1,26 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Error: File C:\Users\yosaf\Desktop\Sexto\Arquitectura\Practica7\entradas.txt is already at the end of file, nothing to read
+Time: 355 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.HREAD Error: Read a '/', expected a Hex character (0-F).
+Time: 355 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) Error: Character '/' read, expected STD_ULOGIC literal.
+Time: 355 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) Error: Character 'B' read, expected STD_ULOGIC literal.
+Time: 355 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 355 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 355 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: File C:\Users\yosaf\Desktop\Sexto\Arquitectura\Practica7\entradas.txt is already at the end of file, nothing to read
+Time: 365 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.HREAD End of string encountered
+Time: 365 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 365 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 365 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 365 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 365 ns  Iteration: 1  Process: /t_pila/stim_proc  File: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica7/practica7/practica7.srcs/sim_1/new/t_pila.vhd

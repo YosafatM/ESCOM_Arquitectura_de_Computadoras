@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../practica_11.srcs/sources_1/new/PAQUETE_COMPONENTES.vhd" \
+"../../../../practica_11.srcs/sources_1/new/banderas.vhd" \
+"../../../../practica_11.srcs/sources_1/new/condiciones.vhd" \
+"../../../../practica_11.srcs/sources_1/new/control.vhd" \
+"../../../../practica_11.srcs/sources_1/new/decodificador.vhd" \
+"../../../../practica_11.srcs/sources_1/new/memoria_fun_code.vhd" \
+"../../../../practica_11.srcs/sources_1/new/memoria_op_code.vhd" \
+"../../../../practica_11.srcs/sources_1/new/nivel.vhd" \
+"../../../../practica_11.srcs/sources_1/new/unidad_control.vhd" \
+"../../../../practica_11.srcs/sim_1/new/tb_unidad_control.vhd" \
+
+# Do not sort compile order
+nosort

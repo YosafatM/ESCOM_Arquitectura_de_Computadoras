@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto da902f9409194cf3a608e045a1afca88 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_unidad_control_behav xil_defaultlib.tb_unidad_control -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <LF> does not exist in entity <unidad_control>.  Please compare the definition of block <unidad_control> to its component declaration and its instantion to detect the mismatch. [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sim_1/new/tb_unidad_control.vhd:16]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_unidad_control in library work failed.

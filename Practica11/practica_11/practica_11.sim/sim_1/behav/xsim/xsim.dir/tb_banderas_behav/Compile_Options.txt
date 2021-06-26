@@ -1,0 +1,1 @@
+-wto "da902f9409194cf3a608e045a1afca88" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_banderas_behav" "xil_defaultlib.tb_banderas" -log "elaborate.log" 

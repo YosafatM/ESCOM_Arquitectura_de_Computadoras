@@ -1,0 +1,23 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sim_1/new/tb_ESCOMIPS.vhd,1624167082,vhdl,,,,tb_escomips,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/ESCOMIPS.vhd,1624158057,vhdl,,,,escomips,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/PAQUETE_DATOS.vhd,1624247999,vhdl,C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/ESCOMIPS.vhd;C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/ruta.vhd,,,paquete_datos,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/alu.vhd,1621314928,vhdl,,,,alu,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/alu_1bit.vhd,1617680745,vhdl,,,,alu_1bit,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/archivo.vhd,1621458995,vhdl,,,,archivo_registro,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/banderas.vhd,1623821391,vhdl,,,,banderas,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/condiciones.vhd,1624156875,vhdl,,,,condiciones,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/control.vhd,1624158433,vhdl,,,,control,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/decodificador.vhd,1623717405,vhdl,,,,decodificador,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/memoria.vhd,1624247840,vhdl,,,,memoria_dato,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/memoria_fun_code.vhd,1623714273,vhdl,,,,memoria_fun_code,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/memoria_op_code.vhd,1623721389,vhdl,,,,memoria_op_code,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/memoria_programa.vhd,1624247837,vhdl,,,,memoria_programa,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/nivel.vhd,1623809186,vhdl,,,,nivel,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/pila.vhd,1621309311,vhdl,,,,pila,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/ruta.vhd,1624248442,vhdl,,,,ruta,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/sum_1bit.vhd,1616884335,vhdl,,,,sum_1bit,,,,,,,,
+C:/Users/yosaf/Desktop/Sexto/Arquitectura/Proyecto/proyecto/proyecto.srcs/sources_1/new/unidad_control.vhd,1624054684,vhdl,,,,unidad_control,,,,,,,,

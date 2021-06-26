@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 19 16:17:41 2021
+# Process ID: 6732
+# Current directory: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.runs/synth_1
+# Command line: vivado.exe -log ruta.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ruta.tcl
+# Log file: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.runs/synth_1/ruta.vds
+# Journal file: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ruta.tcl -notrace

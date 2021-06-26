@@ -1,0 +1,302 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jun 17 22:45:46 2021
+# Process ID: 9688
+# Current directory: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.runs/synth_1
+# Command line: vivado.exe -log unidad_control.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source unidad_control.tcl
+# Log file: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.runs/synth_1/unidad_control.vds
+# Journal file: C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source unidad_control.tcl -notrace
+Command: synth_design -top unidad_control -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20020 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 363.195 ; gain = 101.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'unidad_control' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:14]
+	Parameter m bound to: 5 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'memoria_op_code' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/memoria_op_code.vhd:6' bound to instance 't_mem_op' of component 'memoria_op_code' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'memoria_op_code' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/memoria_op_code.vhd:16]
+	Parameter m bound to: 5 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoria_op_code' (1#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/memoria_op_code.vhd:16]
+	Parameter m bound to: 4 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'memoria_fun_code' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/memoria_fun_code.vhd:6' bound to instance 't_mem_fun' of component 'memoria_fun_code' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'memoria_fun_code' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/memoria_fun_code.vhd:16]
+	Parameter m bound to: 4 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoria_fun_code' (2#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/memoria_fun_code.vhd:16]
+INFO: [Synth 8-3491] module 'decodificador' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/decodificador.vhd:4' bound to instance 't_deco' of component 'decodificador' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'decodificador' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/decodificador.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'decodificador' (3#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/decodificador.vhd:11]
+INFO: [Synth 8-3491] module 'banderas' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/banderas.vhd:4' bound to instance 't_banderas' of component 'banderas' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'banderas' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/banderas.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'banderas' (4#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/banderas.vhd:12]
+INFO: [Synth 8-3491] module 'condiciones' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/condiciones.vhd:4' bound to instance 't_condiciones' of component 'condiciones' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'condiciones' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/condiciones.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'condiciones' (5#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/condiciones.vhd:11]
+INFO: [Synth 8-3491] module 'control' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/control.vhd:4' bound to instance 't_control' of component 'control' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/control.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'control' (6#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/control.vhd:11]
+INFO: [Synth 8-3491] module 'nivel' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/nivel.vhd:4' bound to instance 't_nivel' of component 'nivel' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'nivel' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/nivel.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'nivel' (7#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/nivel.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'unidad_control' (8#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.srcs/sources_1/new/unidad_control.vhd:14]
+WARNING: [Synth 8-3331] design control has unconnected port CLK
+WARNING: [Synth 8-3331] design control has unconnected port CLR
+WARNING: [Synth 8-3331] design condiciones has unconnected port Q[3]
+WARNING: [Synth 8-3331] design condiciones has unconnected port Q[2]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 420.012 ; gain = 158.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 420.012 ; gain = 158.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 420.012 ; gain = 158.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "TIPOR" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BEQI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BNEI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BLTI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BLETI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BGTI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BGETI" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 420.012 ; gain = 158.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module unidad_control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+Module decodificador 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+Module banderas 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 6     
+Module nivel 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |     2|
+|4     |LUT3 |     2|
+|5     |LUT4 |     5|
+|6     |LUT5 |    10|
+|7     |LUT6 |    25|
+|8     |FDCE |     4|
+|9     |IBUF |    13|
+|10    |OBUF |    20|
++------+-----+------+
+
+Report Instance Areas: 
++------+-------------+---------+------+
+|      |Instance     |Module   |Cells |
++------+-------------+---------+------+
+|1     |top          |         |    84|
+|2     |  t_banderas |banderas |    16|
+|3     |  t_nivel    |nivel    |    10|
++------+-------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 576.590 ; gain = 314.719
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 673.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:40 . Memory (MB): peak = 673.242 ; gain = 424.328
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 673.242 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica11/practica_11/practica_11.runs/synth_1/unidad_control.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file unidad_control_utilization_synth.rpt -pb unidad_control_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 17 22:46:48 2021...

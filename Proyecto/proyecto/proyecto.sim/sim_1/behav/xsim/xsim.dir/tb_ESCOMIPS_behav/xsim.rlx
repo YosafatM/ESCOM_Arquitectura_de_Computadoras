@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6910983438155592114  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 404f2fa3efe044f0a1e068c44bd2542b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_ESCOMIPS_behav xil_defaultlib.tb_ESCOMIPS" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_ESCOMIPS_behav/xsimk.exe\"   \"xsim.dir/tb_ESCOMIPS_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_ESCOMIPS_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

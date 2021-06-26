@@ -1,0 +1,531 @@
+
+*** Running vivado
+    with args -log ruta.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ruta.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source ruta.tcl -notrace
+Command: synth_design -top ruta -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11532 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 362.457 ; gain = 98.977
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ruta' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/ruta.vhd:14]
+	Parameter pc_size bound to: 16 - type: integer 
+	Parameter n bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'pila' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/pila.vhd:6' bound to instance 'c_pila' of component 'pila' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/ruta.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'pila' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/pila.vhd:18]
+	Parameter pc_size bound to: 16 - type: integer 
+	Parameter n bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pila' (1#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/pila.vhd:18]
+	Parameter m bound to: 10 - type: integer 
+	Parameter n bound to: 25 - type: integer 
+INFO: [Synth 8-3491] module 'memoria_programa' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/memoria_programa.vhd:6' bound to instance 'c_programa' of component 'memoria_programa' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/ruta.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'memoria_programa' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/memoria_programa.vhd:16]
+	Parameter m bound to: 10 - type: integer 
+	Parameter n bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoria_programa' (2#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/memoria_programa.vhd:16]
+INFO: [Synth 8-3491] module 'archivo_registro' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/archivo.vhd:6' bound to instance 'c_archivo' of component 'archivo_registro' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/ruta.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'archivo_registro' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/archivo.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'archivo_registro' (3#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/archivo.vhd:14]
+	Parameter m bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'alu' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:5' bound to instance 'c_alu' of component 'alu' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/ruta.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'alu' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:16]
+	Parameter m bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:10]
+INFO: [Synth 8-3491] module 'sum_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/sum_1bit.vhd:4' bound to instance 'sum' of component 'sum_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'sum_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/sum_1bit.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'sum_1bit' (4#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/sum_1bit.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'alu_1bit' (5#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:10]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-3491] module 'alu_1bit' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu_1bit.vhd:4' bound to instance 'comp' of component 'alu_1bit' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'alu' (6#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/alu.vhd:16]
+	Parameter m bound to: 10 - type: integer 
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'memoria_dato' declared at 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/memoria.vhd:6' bound to instance 'c_dato' of component 'memoria_dato' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/ruta.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'memoria_dato' [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/memoria.vhd:18]
+	Parameter m bound to: 10 - type: integer 
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoria_dato' (7#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/memoria.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'ruta' (8#1) [C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.srcs/sources_1/new/ruta.vhd:14]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 419.348 ; gain = 155.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 419.348 ; gain = 155.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 419.348 ; gain = 155.867
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-5545] ROM "pointers_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "mem_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[8]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[9]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[10]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[11]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[12]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[13]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[14]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem_reg[15]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 429.297 ; gain = 165.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 16    
+	   2 Input      1 Bit         XORs := 17    
++---Registers : 
+	               16 Bit    Registers := 24    
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 10    
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 26    
+	   4 Input      1 Bit        Muxes := 16    
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ruta 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 7     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module pila 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 8     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module archivo_registro 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 16    
+Module sum_1bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module alu_1bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "pointers_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pointers_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][15]' (FDCE) to 'c_archivo/mem_reg[14][15]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][15]' (FDCE) to 'c_archivo/mem_reg[13][15]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][15]' (FDCE) to 'c_archivo/mem_reg[12][15]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][15]' (FDCE) to 'c_archivo/mem_reg[11][15]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][15]' (FDCE) to 'c_archivo/mem_reg[10][15]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][15]' (FDCE) to 'c_archivo/mem_reg[9][15]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][15]' (FDCE) to 'c_archivo/mem_reg[8][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][15] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][14]' (FDCE) to 'c_archivo/mem_reg[14][14]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][14]' (FDCE) to 'c_archivo/mem_reg[13][14]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][14]' (FDCE) to 'c_archivo/mem_reg[12][14]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][14]' (FDCE) to 'c_archivo/mem_reg[11][14]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][14]' (FDCE) to 'c_archivo/mem_reg[10][14]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][14]' (FDCE) to 'c_archivo/mem_reg[9][14]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][14]' (FDCE) to 'c_archivo/mem_reg[8][14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][14] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][13]' (FDCE) to 'c_archivo/mem_reg[14][13]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][13]' (FDCE) to 'c_archivo/mem_reg[13][13]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][13]' (FDCE) to 'c_archivo/mem_reg[12][13]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][13]' (FDCE) to 'c_archivo/mem_reg[11][13]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][13]' (FDCE) to 'c_archivo/mem_reg[10][13]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][13]' (FDCE) to 'c_archivo/mem_reg[9][13]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][13]' (FDCE) to 'c_archivo/mem_reg[8][13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][13] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][12]' (FDCE) to 'c_archivo/mem_reg[14][12]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][12]' (FDCE) to 'c_archivo/mem_reg[13][12]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][12]' (FDCE) to 'c_archivo/mem_reg[12][12]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][12]' (FDCE) to 'c_archivo/mem_reg[11][12]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][12]' (FDCE) to 'c_archivo/mem_reg[10][12]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][12]' (FDCE) to 'c_archivo/mem_reg[9][12]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][12]' (FDCE) to 'c_archivo/mem_reg[8][12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][12] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][11]' (FDCE) to 'c_archivo/mem_reg[14][11]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][11]' (FDCE) to 'c_archivo/mem_reg[13][11]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][11]' (FDCE) to 'c_archivo/mem_reg[12][11]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][11]' (FDCE) to 'c_archivo/mem_reg[11][11]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][11]' (FDCE) to 'c_archivo/mem_reg[10][11]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][11]' (FDCE) to 'c_archivo/mem_reg[9][11]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][11]' (FDCE) to 'c_archivo/mem_reg[8][11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][11] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][10]' (FDCE) to 'c_archivo/mem_reg[14][10]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][10]' (FDCE) to 'c_archivo/mem_reg[13][10]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][10]' (FDCE) to 'c_archivo/mem_reg[12][10]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][10]' (FDCE) to 'c_archivo/mem_reg[11][10]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][10]' (FDCE) to 'c_archivo/mem_reg[10][10]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][10]' (FDCE) to 'c_archivo/mem_reg[9][10]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][10]' (FDCE) to 'c_archivo/mem_reg[8][10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][10] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][9]' (FDCE) to 'c_archivo/mem_reg[14][9]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][9]' (FDCE) to 'c_archivo/mem_reg[13][9]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][9]' (FDCE) to 'c_archivo/mem_reg[12][9]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][9]' (FDCE) to 'c_archivo/mem_reg[11][9]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][9]' (FDCE) to 'c_archivo/mem_reg[10][9]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][9]' (FDCE) to 'c_archivo/mem_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][9]' (FDCE) to 'c_archivo/mem_reg[8][9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][9] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][8]' (FDCE) to 'c_archivo/mem_reg[14][8]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][8]' (FDCE) to 'c_archivo/mem_reg[13][8]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][8]' (FDCE) to 'c_archivo/mem_reg[12][8]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][8]' (FDCE) to 'c_archivo/mem_reg[11][8]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][8]' (FDCE) to 'c_archivo/mem_reg[10][8]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][8]' (FDCE) to 'c_archivo/mem_reg[9][8]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][8]' (FDCE) to 'c_archivo/mem_reg[8][8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][8] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][7]' (FDCE) to 'c_archivo/mem_reg[14][7]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][7]' (FDCE) to 'c_archivo/mem_reg[13][7]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][7]' (FDCE) to 'c_archivo/mem_reg[12][7]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][7]' (FDCE) to 'c_archivo/mem_reg[11][7]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][7]' (FDCE) to 'c_archivo/mem_reg[10][7]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][7]' (FDCE) to 'c_archivo/mem_reg[9][7]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][7]' (FDCE) to 'c_archivo/mem_reg[8][7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][7] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][6]' (FDCE) to 'c_archivo/mem_reg[14][6]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][6]' (FDCE) to 'c_archivo/mem_reg[13][6]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][6]' (FDCE) to 'c_archivo/mem_reg[12][6]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][6]' (FDCE) to 'c_archivo/mem_reg[11][6]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][6]' (FDCE) to 'c_archivo/mem_reg[10][6]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][6]' (FDCE) to 'c_archivo/mem_reg[9][6]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][6]' (FDCE) to 'c_archivo/mem_reg[8][6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][6] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][5]' (FDCE) to 'c_archivo/mem_reg[14][5]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][5]' (FDCE) to 'c_archivo/mem_reg[13][5]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][5]' (FDCE) to 'c_archivo/mem_reg[12][5]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][5]' (FDCE) to 'c_archivo/mem_reg[11][5]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][5]' (FDCE) to 'c_archivo/mem_reg[10][5]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][5]' (FDCE) to 'c_archivo/mem_reg[9][5]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][5]' (FDCE) to 'c_archivo/mem_reg[8][5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][5] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][4]' (FDCE) to 'c_archivo/mem_reg[14][4]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][4]' (FDCE) to 'c_archivo/mem_reg[13][4]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][4]' (FDCE) to 'c_archivo/mem_reg[12][4]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][4]' (FDCE) to 'c_archivo/mem_reg[11][4]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][4]' (FDCE) to 'c_archivo/mem_reg[10][4]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][4]' (FDCE) to 'c_archivo/mem_reg[9][4]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][4]' (FDCE) to 'c_archivo/mem_reg[8][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][4] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][3]' (FDCE) to 'c_archivo/mem_reg[14][3]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][3]' (FDCE) to 'c_archivo/mem_reg[13][3]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][3]' (FDCE) to 'c_archivo/mem_reg[12][3]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][3]' (FDCE) to 'c_archivo/mem_reg[11][3]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][3]' (FDCE) to 'c_archivo/mem_reg[10][3]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][3]' (FDCE) to 'c_archivo/mem_reg[9][3]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][3]' (FDCE) to 'c_archivo/mem_reg[8][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][3] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][2]' (FDCE) to 'c_archivo/mem_reg[14][2]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][2]' (FDCE) to 'c_archivo/mem_reg[13][2]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[13][2]' (FDCE) to 'c_archivo/mem_reg[12][2]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[12][2]' (FDCE) to 'c_archivo/mem_reg[11][2]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[11][2]' (FDCE) to 'c_archivo/mem_reg[10][2]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[10][2]' (FDCE) to 'c_archivo/mem_reg[9][2]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[9][2]' (FDCE) to 'c_archivo/mem_reg[8][2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][2] )
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[15][1]' (FDCE) to 'c_archivo/mem_reg[14][1]'
+INFO: [Synth 8-3886] merging instance 'c_archivo/mem_reg[14][1]' (FDCE) to 'c_archivo/mem_reg[13][1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c_archivo/mem_reg[8][0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-----------------+------------+---------------+----------------+
+|Module Name      | RTL Object | Depth x Width | Implemented As | 
++-----------------+------------+---------------+----------------+
+|memoria_programa | mem[0]     | 1024x25       | LUT            | 
+|memoria_programa | mem[0]     | 1024x25       | LUT            | 
++-----------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------+-----------+----------------------+------------------+
+|Module Name | RTL Object     | Inference | Size (Depth x Width) | Primitives       | 
++------------+----------------+-----------+----------------------+------------------+
+|ruta        | c_dato/mem_reg | Implied   | 1 K x 16             | RAM256X1S x 64   | 
++------------+----------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+----------------+-----------+----------------------+------------------+
+|Module Name | RTL Object     | Inference | Size (Depth x Width) | Primitives       | 
++------------+----------------+-----------+----------------------+------------------+
+|ruta        | c_dato/mem_reg | Implied   | 1 K x 16             | RAM256X1S x 64   | 
++------------+----------------+-----------+----------------------+------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    20|
+|3     |LUT1      |     1|
+|4     |LUT2      |    68|
+|5     |LUT3      |   103|
+|6     |LUT4      |   105|
+|7     |LUT5      |   107|
+|8     |LUT6      |   191|
+|9     |MUXF7     |    26|
+|10    |RAM256X1S |    64|
+|11    |FDCE      |   288|
+|12    |FDRE      |     3|
+|13    |IBUF      |    21|
+|14    |OBUF      |    13|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------+-----------------+------+
+|      |Instance     |Module           |Cells |
++------+-------------+-----------------+------+
+|1     |top          |                 |  1011|
+|2     |  c_archivo  |archivo_registro |   337|
+|3     |  c_dato     |memoria_dato     |   103|
+|4     |  c_pila     |pila             |   529|
+|5     |  c_programa |memoria_programa |     7|
++------+-------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 633.637 ; gain = 370.156
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 110 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 683.199 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 64 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+196 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:10 . Memory (MB): peak = 683.199 ; gain = 419.719
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 683.199 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/yosaf/Desktop/Sexto/Arquitectura/Practica8/practica8/practica8.runs/synth_1/ruta.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ruta_utilization_synth.rpt -pb ruta_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 19 16:18:56 2021...
